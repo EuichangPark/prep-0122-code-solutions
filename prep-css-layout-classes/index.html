@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+      margin: 10px;
+    }
+
+    img {
+
+      width: 100%;
+      max-height: 46%;
+
+
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1> The Lord of the Rings</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg" alt="LOTR1" >
+        <h3>The Lord of the Rings: The Fellowship of the Ring</h3>
+        <p>The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson, based
+        on the 1954 novel The Fellowship of the Ring, the first volume of J. R. R. Tolkien's The Lord of the Rings. The film is
+        the first installment in the Lord of the Rings trilogy. It was produced by Barrie M. Osborne, Jackson, Fran Walsh and
+        Tim Sanders, and written by Walsh, Philippa Boyens and Jackson. The film features an ensemble cast including Elijah
+        Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Billy Boyd, Dominic
+        Monaghan, Orlando Bloom, Christopher Lee, Hugo Weaving, Sean Bean, Ian Holm, and Andy Serkis.</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" alt="LOTR2" >
+        <h3>The Lord of the Rings: The Two Towers</h3>
+        <p>The Lord of the Rings: The Two Towers is a 2002 epic fantasy adventure film directed by Peter Jackson, based on the
+        second volume of J. R. R. Tolkien's The Lord of the Rings. The film is the second instalment in the Lord of the Rings
+        trilogy and was produced by Barrie M. Osborne, Fran Walsh and Jackson, from a screenplay by Walsh, Philippa Boyens,
+        Stephen Sinclair and Jackson. The film features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo
+        Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Christopher Lee, Billy Boyd, Dominic Monaghan,
+        Orlando Bloom, Hugo Weaving, Miranda Otto, David Wenham, Brad Dourif, Karl Urban and Andy Serkis.</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="LOTR3" >
+        <h3>The Lord of the Rings: The Return of the King</h3>
+        <p>The Lord of the Rings: The Return of the King is a 2003 epic fantasy adventure film directed by Peter Jackson, based on
+        the third volume of J. R. R. Tolkien's The Lord of the Rings. The film is the final entry in the Lord of the Rings
+        trilogy and was produced by Barrie M. Osborne, Jackson and Fran Walsh, from a screenplay by Walsh, Philippa Boyens and
+        Jackson. Continuing the plot of The Two Towers, Frodo, Sam and Gollum are making their final way toward Mount Doom in
+        Mordor in order to destroy the One Ring, unaware of Gollum's true intentions, while Gandalf, Aragorn, Legolas, Gimli and
+        the rest are joining forces together against Sauron and his legions in Minas Tirith.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
